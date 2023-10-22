@@ -3,7 +3,6 @@ function formatMessage(message, maxLength) {
         console.log(message);
     }
     else { 
-        //message.length = ;
         console.log(message.slice(0, maxLength)+"...");
      }
 }   
